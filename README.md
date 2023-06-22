@@ -1,1 +1,3 @@
 # TGO-Projectgroup-19
+
+An optical flow-based lesion tracking method based on a deep learning model is proposed for accurate tracking of moving lung lesions in a 2D fluoroscopy for navigation bronchoscopy. For the optical flow, the Lucas-Kanade algorithm is able to track the motion of the pixels inside the tracking area between two frames and to translate it into the motion of the lesion with the same factor and direction during the 2D fluoroscopy. The deep learning model is more capable to be consistent in drawing the mask than manually drawing the masks. Optical flow is not only useful for tracking of the lesion, but also for analyzing the respiration-induced motion of the lungs. With the help of a color plot, the motion of different parts of the lungs can be analyzed.
